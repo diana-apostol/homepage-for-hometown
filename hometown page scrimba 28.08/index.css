@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#header-background{
+  display: flex;
+  justify-content: center;
+  margin-right: 0px;
+  margin-left: 0px;  
+  width: 800px;
+  height: 300px;
+  width: 100%;
+  
+  background-size: cover; 
+  background-image: url("images/bucharest.jpg");
+   
+}
+body{
+  text-align: center; 
+}
+
+.text{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center; 
+color: gainsboro;
+font-family: 'Slabo 27px', serif;
+}
+
+#title{
+  padding: 5px 10px;
+  margin-top: 100px;
+  background-color: purple;
+  border-radius: 5px;
+  text-shadow: 0 0 5px green; 
+ 
+}
+
+#subtitle{
+  background-color: palevioletred;
+  padding: 5px 10px;
+  border-radius: 5px;
+  
+}
+
+.image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.text2{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Slabo 27px', serif;
+  color: #33415c;
+  font-size: 10px;
+}
+
+#content-title{
+  font-family: 'Slabo 27px', serif;
+  color: #33415c;
+  font-size: 25px;
+}
+
+.activity-title{
+}
+
+#content-background{
+  background-color: #cdb4db; 
+  width: 100%;
+  padding: 10px;
+}
+ .conclusion{
+  width: 500px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #33415c; 
+  background-color: #aed9e0;
+  
+  
+ 
+}
+
+.avatar{
+  width: 170px;
+  height: 190px;  
+  padding: 20px;
+}
+
+.container{
+  display: flex; 
+  width: 100%;
+  
+  
+}
+
+.opinion{
+  font-family: 'Slabo 27px', serif;
+  font-size: 15px;
+  padding-right: 10px;
+}
